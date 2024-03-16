@@ -1517,7 +1517,11 @@ table {
 .accounts__container {
   grid-template-columns: 4fr 8fr;
 }
-
+.accounts__container_2 {
+  padding: 0px 10px;
+  grid-template-columns: 2fr 10fr;
+  margin-top: 5px;
+}
 .account__tabs {
   border: 1px solid var(--border-color-alt);
   border-radius: 0.25rem;
@@ -1538,6 +1542,17 @@ table {
   color: var(--body-color);
 }
 
+.admlist a{
+  font-size: var(--body-font);
+}
+.admlist:hover{
+  background-color: var(--first-color);
+}
+
+.container_2{
+  width: 100%;
+  text-align: center;
+}
 .tab__content:not(.active-tab) {
   display: none;
 }
