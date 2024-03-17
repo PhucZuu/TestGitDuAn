@@ -395,7 +395,7 @@ table {
 }
 
 .btn--sm {
-  height: 40px;
+  height: 45px;
   line-height: 38px;
 }
 
@@ -1375,12 +1375,62 @@ table {
   margin-bottom: 1rem;
 }
 
-.cart__coupon {
+.cart__comment {
   margin-top: 3rem;
 }
 
-.coupon__form .form__group {
+.comment__form .form__group {
   align-items: center;
+  display: flex;
+}
+
+.comment__form .form__input{
+  width: 100%;
+}
+
+.comments {
+  margin-top: 20px;
+}
+
+.comment {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.timestamp {
+  color: #888;
+  font-size: 14px;
+}
+
+.comment-text {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.comment-content {
+  flex-grow: 1; /* Stretch to fill available space */
 }
 
 .cart__total {
